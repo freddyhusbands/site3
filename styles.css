@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: lawngreen;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: red;
+
+}
+
+li {
+    padding: 0px 50px;
+
+}
+
+#container {
+    width: 900px;
+    display: flex;
+    position: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#headers {
+    justify-content: center;
+    flex-direction: row;
+}
+
+#content-box {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+#paragraph1 {
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+#paragraph2 {
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+#paragraph3 {
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+#paragraph4 {
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li:hover {
+    color: cyan;
+}
+
+img {
+    max-width: 716.55px;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+#welcome {
+    margin-top: 16px;
+}
+
+h3 {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
